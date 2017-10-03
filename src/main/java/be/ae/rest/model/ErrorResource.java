@@ -17,7 +17,7 @@ public class ErrorResource {
 
     @JsonProperty("id")
     private String id;
-    @JsonProperty("message")
+    @JsonProperty("kapot")
     private String message;
 
     @JsonProperty("id")
