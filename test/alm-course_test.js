@@ -27,10 +27,10 @@ exports['welcomeMessage'] = {
     done();
   },
   'all tests': function(test) {
-    test.expect(2);
+    test.expect(1);
     // tests here
     test.equal(alm_course.sum(1,2), 3, '1+2 should be 3.');
-    test.equal(alm_course.sum(1), 1, 'sum of 1 and nothing should be 1.');
+    
     test.done();
   },
 };
